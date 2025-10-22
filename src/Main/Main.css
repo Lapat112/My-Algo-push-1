@@ -7,13 +7,24 @@ body {
   min-height: 200vh; /* ทำให้หน้าเว็บยาวพอที่จะ scroll ได้ */
 }
 
-.main-container {
+
+.main-container-1 {
+  width: 118rem;
+  height: 11rem;
+  background-color: #ffffff;
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+  transform: translateX(-50%); /* เลื่อนเฉพาะแนวนอน */
+}
+
+
+.main-container-2 {
   width: 118rem;
   height: 120rem;
-  background-color: #3b82f6;
+  background-color: #ffffff;
   position: absolute;
-
-  top: 5rem;
+  top: 29.5rem;
   left: 50%;
   transform: translateX(-50%); /* เลื่อนเฉพาะแนวนอน */
 }
