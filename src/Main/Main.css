@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+
+body {
+  margin: 0;
+  min-height: 200vh; /* ทำให้หน้าเว็บยาวพอที่จะ scroll ได้ */
+}
+
+.main-container {
+  width: 118rem;
+  height: 120rem;
+  background-color: #3b82f6;
+  position: absolute;
+
+  top: 5rem;
+  left: 50%;
+  transform: translateX(-50%); /* เลื่อนเฉพาะแนวนอน */
+}
