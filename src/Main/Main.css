@@ -24,7 +24,38 @@ body {
   height: 120rem;
   background-color: #ffffff;
   position: absolute;
-  top: 29.5rem;
+  top: 30rem;
   left: 50%;
   transform: translateX(-50%); /* เลื่อนเฉพาะแนวนอน */
+}
+
+.main-container-3 {
+  width: 115rem;
+  height: 88rem;
+  background-color: #ffffff;
+  position: absolute;
+  top: 30.1rem;
+  left: 50%;
+  transform: translateX(-50%); /* เลื่อนเฉพาะแนวนอน */
+}
+
+.Shop-container {
+  width: 100rem;
+  height: 80rem;
+  background-color: #ffffff;
+  position: absolute;
+  top: 7rem;
+  left: 50%;
+  transform: translateX(-50%); /* เลื่อนเฉพาะแนวนอน */
+}
+
+
+
+
+.advert {
+  width: 118rem;
+  height: 28rem;
+  background-color: #ffffff6c;
+  position: relative;
+  top: 1px;
 }
