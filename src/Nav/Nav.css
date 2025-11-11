@@ -7,3 +7,9 @@
     height: 4rem;
     background-color: rgb(255, 255, 255);
 }
+
+.Post-button:hover{
+    background-color: #e2e2e2;
+    cursor: pointer;
+    transition: 0.3s;
+}
